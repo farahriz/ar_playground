@@ -16,8 +16,11 @@ end
 # Write your test code here
 
 # 1. Create a new student using new and save
+	# student = Student.new(name: "Harry Potter", email: "harry@example.com", age: 18)
+	# student.save
 
 # 2. Create a new student using create
+	# student = Student.create(name: "Luke Watt", email: "luke@example.com", age: 23)
 
 # 3. Select all students
 # pay attention to the object that is returned to you, is it a Student object or Active Record relation object?
